@@ -1,0 +1,66 @@
+<html lang="en">
+
+  <head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>D3 Visualizations</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  </head>
+  
+  <body>
+  
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12 jumbotron text-center">
+      <h1>Visualization Charts</h1>
+      <p>Use the interactive charts below to explore the dataset</p>
+     </div>
+    </div>
+    <div class="row">
+     <!-- <div class="col-md-2">
+      <div class="well"> -->
+          <a  class ='btn btn-primary' href='/#datavisualization' style='background-color:steal'>Go back to main page website</a> 
+     
+     <br/>
+     <div class="col-md-6">
+       <h5>HYPOTHESIS: The total sum of credit card bills ARE NOT paid in full on a monthly basis</h5>
+       <div id="bar_a"></div>
+     </div>
+
+
+     <div class="col-md-6">
+     <h5>HYPOTHESIS: Credit cards are used mainly by adults in their 30s & 40s</h5>
+      <div id="bubbles"></div>
+     </div>
+     
+     <div class="col-md-6">
+     <h5>HYPOTHESIS: Men are more likely to experience a credit card default</h5>
+      <div id="pie"></div>
+     </div>
+     
+     <div class="col-md-6">
+     <h5>BAR CHAR</h5>
+      <div id="bar"></div>
+     </div>
+
+     <div class="col-md-6">
+      <h5>HYPOTHESIS: Age plays a factor in the amount of credit granted to an individual</h5>
+      <div id="line"></div>
+     </div>
+
+
+    </div>
+   </div>
+  
+   <!-- <script src="https://cdn.plot.ly/plotly-1.31.2.min.js"></script> -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+   <script src="{{url_for('static', filename='js/visuals.js') }}"></script>
+  
+  </body>
+  
+  </html>

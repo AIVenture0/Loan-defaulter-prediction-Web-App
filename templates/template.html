@@ -1,0 +1,336 @@
+cd deslk<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Credit Card Default Prediction Model</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+      
+
+    <!-- custom fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>  
+    <!-- Template Css -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/template.css') }}">
+
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+      <a class="navbar-brand" href="#"><b>CCredit</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active text-white" href="#page-top">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#description">Description</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#variables"> Variables</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#datavisualization">Data Visualization</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#prediction">Prediction</a>
+          </li>
+
+        </ul>
+      </div>  
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead d-flex">
+      <div class="container text-center my-auto">
+        <h1 class="mb-1 text-black">Credit Card Default Prediction</h1>
+        <h3 class="mb-5">
+          <em>Machine Learning Neutral Network Model</em>
+        </h3>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#description">Get Started</a>
+      </div>
+      <div class="overlay"></div>
+    </header>
+    <!-- Project description  -->
+
+    <section class="content-section bg-light" id="description">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Based on the 23 variables, we created a regression model to predict a customer's default likehood.</h2>
+            <p class="lead mb-5">The dataset contains information from more than 30,000 customers in Taiwan. The currency is Taiwan dollar (TN$).
+              </p>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#variables"><b>Next</b></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Variables in the dataset -->
+    <section class="content-section bg-primary text-white text-center" id="variables">
+      <div class="container text-center">
+        <div class="content-section-heading">
+          <h3 class="text-secondary mb-0"> </h3>
+          <h2 class="mb-5">Dataset Variables</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 ">
+            <i class="fa fa-address-book" style="font-size:56px"></i>
+            <h4>
+              <strong>Customer's Age</strong>
+            </h4>
+            <!-- <p class="text-faded mb-0">An integer variable to indicate the age</p> -->
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <i class="fa fa-transgender-alt" style="font-size:65px;color:white"></i>
+            <h4>
+              <strong>Customer's Gender</strong>
+            </h4>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <i class="fa fa-credit-card-alt" style="font-size:65px;color:white"></i>
+            <h4>
+              <strong>Credit Card Limit Balance</strong>
+            </h4>
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <i class="fa fa-book" style="font-size:65px;color:white"></i>
+            <h4>
+              <strong>Education Level</strong>
+            </h4>
+          </div>
+          <br>
+
+
+          <div class="col-lg-3 col-md-6">
+              <i class="fa fa-meanpath" style="font-size:65px;color:white"></i>
+              <h4>
+                <strong>Billing and Payment Amounts</strong>
+              </h4>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <i class="fa fa-building" style="font-size:65px;color:white"></i>
+              <h4>
+                <strong>Monthly Income</strong>
+              </h4>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+              <i class="fa fa-group" style="font-size:65px;color:white"></i>
+              <h4>
+                <strong>Number of Dependents </strong>
+              </h4>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+              <i class="fa fa-assistive-listening-systems" style="font-size:65px;color:white"></i>
+              <h4>
+                <strong>Other Variables</strong>
+              </h4>
+          </div>
+
+
+        </div>
+       <br/>
+      </div>
+    </section>
+
+    <!-- Callout -->
+    <section class="callout" id="datavisualization">
+
+      <div class="container text-center">
+          <h2 class="mx-auto mb-5">How the dataset
+              <em>looks</em>
+          </h2>
+          <!-- <a  class ='btn btn-primary btn-xl js-scroll-trigger' href='/visuals' >See visualization charts</a>  -->
+          
+<!--         <h2 class="mx-auto mb-5">Welcome to
+          <em>your</em>
+          next website!</h2>
+        <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a> -->
+        <br/>
+        <a  class ='btn btn-primary btn-xl ' href='/visuals' >See Visualization Charts</a> 
+      </div>
+      
+    </section>
+    <section class="content-section bg-primary text-white" id="prediction">
+      <div class="content-section-heading text-center">
+        <h3 class="text-secondary mb-0">Predict the Results</h3>
+        <h2 class="mb-5">Variables We Input</h2>
+
+        <!-- prediction button  -->
+        <button type="button" class="btn btn-xl btn-light mr-4" data-toggle="modal" data-target="#ModalPredictionInput"> 
+          Start the Prediction
+        </button>
+      </div>
+      <br>
+      <br>
+      <div class="content-section-heading text-center">
+      <h3 class="text-secondary mb-0">{{ prediction_section_title }}</h3>
+        <br>  
+        <h2 class='mb-3' style="font-size:40px; color: yellow"><strong>{{ prediction_result }}</strong></h2>
+      </div>
+
+<!--       <div class="bs-example">
+        <div class="alert alert-warning">
+        <a href="#" class="close" data-dismiss="alert">&times;</a>
+        <strong>Warning!</strong> There was a problem with your network connection.
+        </div>
+      </div> -->
+
+
+
+      <!-- the Modal for Prediction Button  -->
+      <div class="modal fade" id="ModalPredictionInput" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-success" role="document">
+            <!--Content-->
+            <div class="modal-content text-primary">
+                <!--Header-->
+                <div class="modal-header">
+                    <h2 class="modal-title">Input a New Customer Profile</h2>
+        
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                    </button>
+                </div>
+        
+                <!--Body-->
+                <div class="modal-body">
+                    <div class="text-primary">
+                          
+                        <form class="form" action="/#prediction" method="post" >
+                          <div class='form-row'>
+                            <div class="form-group col-md-4">
+                              <label for="age" class="col-form-label">Age</label>
+                              <input name ='age' class="form-control" id="age" placeholder='Input the customer age'>
+                            </div>
+                            <div class="form-group col-md-8">
+                                <label for="Dependents" class="col-form-label">Number Of Dependents</label>
+                                <input name ='Dependents' class="form-control" id="dependents" placeholder='The number of dependent family members the borrowers have'>
+<!--                                 <select class="custom-select" name='gender' id="gender">
+                                    <option selected value=1>Male</option>
+                                    <option value=0>Female</option>
+                                  </select> -->
+                            </div>
+<!--                             <div class="form-group col-md-4">
+                                <label for="ismarried" class="col-form-label">Marital Status</label>
+                                <select class="custom-select" name='ismarried' id="ismarried">
+                                    <option selected value="0">Not Married</option>
+                                    <option value="1">Married</option>
+                                  </select>
+                            </div> -->
+                          </div>  
+                           <!-- education selection  -->
+                            <div class="form-group mx-auto mb-auto">
+                                <label for="DebtRatio" class="col-form-label">Debt Ratio</label>
+
+                                <input type="text" class="form-control" name ='debtratio' id="monthlyincome" placeholder='Enter the DebtRatio'>
+
+<!--                                 <select class="custom-select" name='debtratio' id="debtratio">
+                                    <option selected value="1">High School or Below</option>
+                                    <option value="2">Unversity or Equvalient</option>
+                                    <option value="3">Graduate School</option>
+                                  </select> -->
+                            </div>
+                            <br>
+
+                            <div class="form-group mx-auto mb-auto">
+                                <label for="Monthly Income" class="col-form-label">Monthly Income</label>
+                                <input type="text" class="form-control" name ='monthlyincome' id="monthlyincome" placeholder='Input Monthly Income'>
+                            </div>
+                            <br>
+                            <div class="form-group mx-auto mb-auto">
+                                <label for="RUOUL" class="col-form-label" >Revolving Utilization Of Unsecured Lines</label>
+                                <input class="form-control" name ='ruoul' id="ruoul" placeholder='Credit card limits of the borrower after excluding any current loan debt and real estate'>
+                            </div>
+                            <br>
+
+                            <h3 class='mx-auto mb-auto'> Last Billing and Payment Information</h3>
+
+                            <div class="form-group mx-auto mb-auto">
+                                <label for="30-59 Days" class="col-form-label" >NumberOfTime30-59DaysPastDueNotWorse</label>
+                                <input class="form-control" name ='30-59 days' id="30-59 days" placeholder='Number of times borrowers paid  EMIs late but paid them 30 days after or 59 days before the due date'>
+                            </div>
+                            <br>
+
+                            <div class="form-group mx-auto mb-auto">
+                                <label for="60-89 Days" class="col-form-label" >NumberOfTime60-89DaysPastDueNotWorse</label>
+                                <input class="form-control" name ='60-89 days' id="60-89 days" placeholder='Number of times borrowers paid  EMIs late but paid them 60 days after or 89 days before the due date'>
+                            </div>
+                            <br>
+
+                            <div class="form-group mx-auto mb-auto">
+                                <label for="60-89 Days" class="col-form-label" >NumberofTimes90DaysLate</label>
+                                <input class="form-control" name ='90days' id="90 days" placeholder='Number of times borrowers paid  EMIs 90 days after the due date'>
+                            </div>
+                            <br>
+
+                            <div class="form-group mx-auto mb-auto">
+                                <label for="Open Credit And NumberOfOpenCreditLinesAndLoans" class="col-form-label">NumberOfOpenCreditLinesAndLoans</label>
+                                <input name ='NumberOfOpenCreditLinesAndLoans' class="form-control" id="opencreditlinesandloans" placeholder='How many times a borrower has paid their dues 90 days after the due date of their EMIs'>
+                            </div>
+                            <br>
+
+                            <div class="form-group mx-auto mb-auto">
+                                <label for="NumberRealEstateLoansOrLines" class="col-form-label">NumberRealEstateLoansOrLines</label>
+                                <input name ='NumberRealEstateLoansOrLines' class="form-control" id="number real estabe loans or lines" placeholder='Number of loans the borrower holds for their real estate or the number of home loans a borrower has'>
+                            </div>
+
+<!--                           <div class='form-row'>
+                              <div class="form-group col-md-4">
+                                  <label for="repayment_status" class="col-form-label">Avergage Past Due Status</label>
+                                  <select class="custom-select" name='repayment_status' id="repayment_status">
+                                      <option value="-2">no consumption</option>
+                                      <option selected value="-1">pay on time</option>
+                                      <option value="0">the use of revolving credit</option>
+                                      <option value="1">payment delay for one month</option>
+                                      <option value="2">payment delay for two months</option>
+                                      <option value="3">payment delay for three months</option>
+                                      <option value="4">payment delay for two months</option>
+                                      <option value="5">payment delay for five months</option>
+                                      <option value="6">payment delay for six months</option>
+                                    </select>
+                              </div> -->
+                                                            
+                          </div>
+<!--                           <div class="form-group modal-footer justify-content-center">
+                            <input type="submit" class="btn btn-dark btn-primary waves-effect" name='submit' >
+                          </div> -->
+                          <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <!--/.Content-->
+        </div>
+      </div>
+        <!-- Central Modal Medium Success-->
+    </section>   
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container text-center">
+        <p class="text-muted text-primary mb-1">
+          <strong>Credit Card Prediction Model created during USC Data Science Bootcamp @ 2018</strong></p>
+      </div>
+    </footer> 
+
+  </body>
+</html>
