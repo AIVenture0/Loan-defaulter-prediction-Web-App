@@ -31,3 +31,14 @@ To run locally, it is assumed that you have python installed on your system
 - Get ready with all files like html css javascript 
 
 - Run the server. python manage.py runserver
+
+# Result
+The output of this model is a flask web-app which predict the  " Wether to the Borrower gonna be a defaulter or not ".
+
+## Author
+<b>Vikram singh</b>
+
+- Twitter: https://twitter.com/vikramvinay1
+- Linkdin: https://www.linkedin.com/in/vikram-singh-ai-venture/
+- Facebook: https://www.facebook.com/AIVentureO/
+- Youtube https://www.youtube.com/channel/UCpAA7n7LcTmGBuNVpqOv-3w
