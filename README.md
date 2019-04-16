@@ -1,8 +1,8 @@
-<h2 style="color:blue;"> Loan_Prediction</h2>
+## Loan_Prediction
 Predictive analysis applications in the finance domain(for predicting loan defaults)
-![](https://cdn-images-1.medium.com/max/735/0*lAkevA6upQBq-NCk.jpg)
 
-<br>
+![](https://daxg39y63pxwu.cloudfront.net/hackerday_banner/hq/loan-default-risk-prediction-machine-learning-project.jpg)
+
 ## Dependency Libraries 
 * Python 3
 * pandas
