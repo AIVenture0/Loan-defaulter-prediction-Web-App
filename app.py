@@ -14,7 +14,7 @@ app.config['MYSQL_DB'] = db['mysql_db']
 
 mysql = MySQL(app)
 # Load the saved model
-loaded_model = pickle.load(open('finalized_model.sav', 'rb'))
+loaded_model = pickle.load(open('Final_predictive_model/finalized_model.sav', 'rb'))
 
 @app.route("/", methods=['GET', 'POST'])
 def home():
