@@ -1,4 +1,4 @@
-## Loan_defaulter prediction
+## Loan-defaulter-prediction
 Predictive analysis applications in the finance domain(for predicting loan defaults)
 
 ![](https://daxg39y63pxwu.cloudfront.net/hackerday_banner/hq/loan-default-risk-prediction-machine-learning-project.jpg)
