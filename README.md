@@ -3,24 +3,27 @@ Predictive analysis applications in the __finance domain__(for predicting __loan
 
 ![](https://daxg39y63pxwu.cloudfront.net/hackerday_banner/hq/loan-default-risk-prediction-machine-learning-project.jpg)
 
-## Dependency Libraries 
-* Python 3
-* pandas
-* numpy
-* scipy
-* scikit-learn
-* matplotlib
-* seaborn
-* jupyter notebook
-* Deep Leanring 
-* Numpy 
-* Pandas
-* scikit learn
-* Flask 
-* Html
-* Css
-* JavaScript
-* Bootstrap
+## Dependencies 
+
+- __ML Model Preparation__
+  * Python 3
+  * pandas
+  * numpy
+  * scipy
+  * scikit-learn
+  * matplotlib
+  * seaborn
+  * jupyter notebook
+  * Numpy 
+  * Pandas
+  * scikit learn
+  
+- __Web application__
+  * Flask 
+  * Html
+  * Css
+  * JavaScript
+  * Bootstrap
 
 ### Prerequisites
 To run locally, it is assumed that you have python installed on your system
