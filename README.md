@@ -1,5 +1,5 @@
 ## Loan-defaulter-prediction
-Predictive analysis applications in the finance domain(for predicting loan defaults)
+Predictive analysis applications in the __finance domain__(for predicting __loan defaults__)
 
 ![](https://daxg39y63pxwu.cloudfront.net/hackerday_banner/hq/loan-default-risk-prediction-machine-learning-project.jpg)
 
@@ -25,15 +25,15 @@ Predictive analysis applications in the finance domain(for predicting loan defau
 ### Prerequisites
 To run locally, it is assumed that you have python installed on your system
 ### Development Guide
-- Create a virtual environment. virtualenv venv
-  - Activate virtual environment via \venv\scripts\activate
-- Install the requirements. pip install -r requirements.txt
-- Get ready with all files like html css javascript 
+- Create a virtual environment. __virtualenv venv__
+  - Activate virtual environment via __\venv\scripts\activate__
+- Install the requirements. __pip install -r requirements.txt__
+- Get ready with all files like __html,css,javascript__ 
 
-- Run the server. python manage.py runserver
+- Run the server python manage.py runserver
 
 # Result
-The output of this model is a flask web-app which predict the  " Wether to the Borrower gonna be a defaulter or not ".
+The output of this model is a flask web-app which predict the  " __Wether to the Borrower gonna be a defaulter or not__ ".
 
 ## Author
 <b>Vikram singh</b>
@@ -41,4 +41,8 @@ The output of this model is a flask web-app which predict the  " Wether to the B
 - Twitter: https://twitter.com/vikramvinay1
 - Linkdin: https://www.linkedin.com/in/vikram-singh-ai-venture/
 - Facebook: https://www.facebook.com/AIVentureO/
-- Youtube https://www.youtube.com/channel/UCpAA7n7LcTmGBuNVpqOv-3w
+- Youtub: https://www.youtube.com/channel/UCpAA7n7LcTmGBuNVpqOv-3w
+- Quora: https://www.quora.com/profile/Vinay-Vikram-8
+
+
+                                      -----Feel Free to contact us if you have any question-----
