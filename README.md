@@ -39,6 +39,7 @@ To run locally, it is assumed that you have python installed on your system
 # Result
 The output of this model is a __flask web-app__ which predict the  " __Wether to the Borrower gonna be a defaulter or not__ ".
 
+
 ## Author
 <b>Vikram singh</b>
 
