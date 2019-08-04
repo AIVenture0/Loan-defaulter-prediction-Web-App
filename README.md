@@ -25,6 +25,7 @@ Predictive analysis applications in the __finance domain__(for predicting __loan
   * JavaScript
   * Bootstrap
 
+
 ### Prerequisites
 To run locally, it is assumed that you have python installed on your system
 ### Development Guide
@@ -33,10 +34,10 @@ To run locally, it is assumed that you have python installed on your system
 - Install the requirements. __pip install -r requirements.txt__
 - Get ready with all files like __html,css,javascript__ 
 
-- Run the server python manage.py runserver
+- Run the server python __manage.py__ runserver
 
 # Result
-The output of this model is a flask web-app which predict the  " __Wether to the Borrower gonna be a defaulter or not__ ".
+The output of this model is a __flask web-app__ which predict the  " __Wether to the Borrower gonna be a defaulter or not__ ".
 
 ## Author
 <b>Vikram singh</b>
