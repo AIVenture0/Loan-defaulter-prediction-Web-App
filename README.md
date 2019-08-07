@@ -5,7 +5,7 @@ Predictive analysis applications in the __finance domain__(for predicting __loan
 
 ## Dependencies 
 
-- __ML Model Preparation__
+- __Machine Learning Model Preparation__
   * Python 3
   * pandas
   * numpy
