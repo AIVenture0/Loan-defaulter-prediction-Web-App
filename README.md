@@ -1,9 +1,10 @@
 ## Loan-defaulter-prediction
 Predictive analysis applications in the __finance domain__(for predicting __loan defaults__)
 
+
 ![](https://daxg39y63pxwu.cloudfront.net/hackerday_banner/hq/loan-default-risk-prediction-machine-learning-project.jpg)
 
-## Dependencies 
+## Dependencies--
 
 - __Machine Learning Model Preparation__
   * Python 3
